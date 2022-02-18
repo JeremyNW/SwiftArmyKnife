@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F0EDACB27BFEF6500D88C55 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0EDACA27BFEF6500D88C55 /* Journal.swift */; };
+		1F0EDACE27BFEF8900D88C55 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0EDACD27BFEF8900D88C55 /* JournalEntry.swift */; };
+		1F0EDAD027BFF03400D88C55 /* JournalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0EDACF27BFF03400D88C55 /* JournalModel.swift */; };
+		1F0EDAD227BFFA9B00D88C55 /* JournalEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0EDAD127BFFA9B00D88C55 /* JournalEditor.swift */; };
+		1F0EDAD527BFFAC800D88C55 /* JournalEditorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0EDAD427BFFAC800D88C55 /* JournalEditorModel.swift */; };
 		1F850A2A27BD4B3B00BE2189 /* SwiftArmyKnifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F850A2927BD4B3B00BE2189 /* SwiftArmyKnifeApp.swift */; };
 		1F850A2C27BD4B3B00BE2189 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F850A2B27BD4B3B00BE2189 /* ContentView.swift */; };
 		1F850A2E27BD4B3B00BE2189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F850A2D27BD4B3B00BE2189 /* Assets.xcassets */; };
@@ -19,6 +24,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F0EDACA27BFEF6500D88C55 /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		1F0EDACD27BFEF8900D88C55 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		1F0EDACF27BFF03400D88C55 /* JournalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalModel.swift; sourceTree = "<group>"; };
+		1F0EDAD127BFFA9B00D88C55 /* JournalEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEditor.swift; sourceTree = "<group>"; };
+		1F0EDAD427BFFAC800D88C55 /* JournalEditorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEditorModel.swift; sourceTree = "<group>"; };
 		1F850A2627BD4B3B00BE2189 /* SwiftArmyKnife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftArmyKnife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F850A2927BD4B3B00BE2189 /* SwiftArmyKnifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftArmyKnifeApp.swift; sourceTree = "<group>"; };
 		1F850A2B27BD4B3B00BE2189 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +52,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F0EDACC27BFEF6E00D88C55 /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				1F0EDACA27BFEF6500D88C55 /* Journal.swift */,
+				1F0EDACF27BFF03400D88C55 /* JournalModel.swift */,
+				1F0EDACD27BFEF8900D88C55 /* JournalEntry.swift */,
+				1F0EDAD327BFFAA500D88C55 /* Editor */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		1F0EDAD327BFFAA500D88C55 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				1F0EDAD127BFFA9B00D88C55 /* JournalEditor.swift */,
+				1F0EDAD427BFFAC800D88C55 /* JournalEditorModel.swift */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
 		1F850A1D27BD4B3B00BE2189 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +96,7 @@
 				1F850A2D27BD4B3B00BE2189 /* Assets.xcassets */,
 				1F850A3927BD53CB00BE2189 /* ImageFetcher */,
 				1F8CC2D827BE9C93009A2264 /* Pokedex */,
+				1F0EDACC27BFEF6E00D88C55 /* Journal */,
 				1F850A2F27BD4B3B00BE2189 /* Preview Content */,
 			);
 			path = SwiftArmyKnife;
@@ -170,10 +201,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F8CC2DC27BE9D5C009A2264 /* Pokemon.swift in Sources */,
+				1F0EDAD227BFFA9B00D88C55 /* JournalEditor.swift in Sources */,
+				1F0EDAD527BFFAC800D88C55 /* JournalEditorModel.swift in Sources */,
 				1F850A3827BD53BD00BE2189 /* ImageFetcher.swift in Sources */,
 				1F850A2C27BD4B3B00BE2189 /* ContentView.swift in Sources */,
+				1F0EDAD027BFF03400D88C55 /* JournalModel.swift in Sources */,
+				1F0EDACB27BFEF6500D88C55 /* Journal.swift in Sources */,
 				1F8CC2D727BE9C8B009A2264 /* Pokedex.swift in Sources */,
 				1F850A2A27BD4B3B00BE2189 /* SwiftArmyKnifeApp.swift in Sources */,
+				1F0EDACE27BFEF8900D88C55 /* JournalEntry.swift in Sources */,
 				1F8CC2DA27BE9CB0009A2264 /* PokedexModel.swift in Sources */,
 				1F850A3B27BD54F800BE2189 /* ImageFetcherModel.swift in Sources */,
 			);

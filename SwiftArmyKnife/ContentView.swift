@@ -22,6 +22,7 @@ struct ContentView: View {
                 LazyVGrid(columns: columns) {
                     DemoAppIcon(name: "ImageFetcher", color: .blue, destination: ImageFetcher())
                     DemoAppIcon(name: "Pokedex", color: .red, destination: Pokedex())
+                    DemoAppIcon(name: "Journal", color: .yellow, destination: Journal())
                 }
                 Spacer()
             }
