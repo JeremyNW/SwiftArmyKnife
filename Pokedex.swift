@@ -14,6 +14,8 @@ struct Pokedex: View {
             HStack {
                 TextField("Search for a Pokemon!", text: $viewModel.searchText)
                     .textFieldStyle(.roundedBorder)
+                    .accessibilityIdentifier("Search textfield")
+                    .accessibilityLabel("Search BAr")
                 Button(action: {
                     Task {
                         await viewModel.fetchPokemon()
@@ -23,12 +25,13 @@ struct Pokedex: View {
                 })
             }
             .padding()
+            if let pokemon = viewModel.pokemon {
             if let image = viewModel.image {
                 Image(uiImage: image)
                     .resizable()
                     .aspectRatio(1, contentMode: .fit)
+                    .accessibilityLabel("\(pokemon.name) sprite")
             }
-            if let pokemon = viewModel.pokemon {
                 Text(pokemon.name.uppercased())
                     .font(.largeTitle)
                     .padding()

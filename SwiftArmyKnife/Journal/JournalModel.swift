@@ -11,6 +11,9 @@ class JournalModel: ObservableObject {
     
     @Published var entries: [JournalEntry] = []
     private var saveFileURL: URL? {
+        #if DEBUG
+        return nil
+        #else
         try? FileManager.default.url(
             for: .documentDirectory,
                in: .userDomainMask,
@@ -19,6 +22,7 @@ class JournalModel: ObservableObject {
         )
             .appendingPathComponent("journalEntries")
             .appendingPathExtension("json")
+        #endif
     }
     
     
