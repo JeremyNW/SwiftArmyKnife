@@ -12,6 +12,11 @@
 		1F0EDAD027BFF03400D88C55 /* JournalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0EDACF27BFF03400D88C55 /* JournalModel.swift */; };
 		1F0EDAD227BFFA9B00D88C55 /* JournalEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0EDAD127BFFA9B00D88C55 /* JournalEditor.swift */; };
 		1F0EDAD527BFFAC800D88C55 /* JournalEditorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0EDAD427BFFAC800D88C55 /* JournalEditorModel.swift */; };
+		1F42BB9D27D3BED200060D85 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F42BB9C27D3BED200060D85 /* TodoList.swift */; };
+		1F42BB9F27D3BEE300060D85 /* TodoListStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F42BB9E27D3BEE300060D85 /* TodoListStorage.swift */; };
+		1F42BBA427D3BF9500060D85 /* Todos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F42BBA227D3BF9500060D85 /* Todos.xcdatamodeld */; };
+		1F42BBA627D3C2DE00060D85 /* Todos+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F42BBA527D3C2DE00060D85 /* Todos+Convenience.swift */; };
+		1F42BBA827D3C4B200060D85 /* TodoListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F42BBA727D3C4B200060D85 /* TodoListModel.swift */; };
 		1F850A2A27BD4B3B00BE2189 /* SwiftArmyKnifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F850A2927BD4B3B00BE2189 /* SwiftArmyKnifeApp.swift */; };
 		1F850A2C27BD4B3B00BE2189 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F850A2B27BD4B3B00BE2189 /* ContentView.swift */; };
 		1F850A2E27BD4B3B00BE2189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F850A2D27BD4B3B00BE2189 /* Assets.xcassets */; };
@@ -48,6 +53,11 @@
 		1F0EDACF27BFF03400D88C55 /* JournalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalModel.swift; sourceTree = "<group>"; };
 		1F0EDAD127BFFA9B00D88C55 /* JournalEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEditor.swift; sourceTree = "<group>"; };
 		1F0EDAD427BFFAC800D88C55 /* JournalEditorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEditorModel.swift; sourceTree = "<group>"; };
+		1F42BB9C27D3BED200060D85 /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
+		1F42BB9E27D3BEE300060D85 /* TodoListStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListStorage.swift; sourceTree = "<group>"; };
+		1F42BBA327D3BF9500060D85 /* Todos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Todos.xcdatamodel; sourceTree = "<group>"; };
+		1F42BBA527D3C2DE00060D85 /* Todos+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Todos+Convenience.swift"; sourceTree = "<group>"; };
+		1F42BBA727D3C4B200060D85 /* TodoListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListModel.swift; sourceTree = "<group>"; };
 		1F850A2627BD4B3B00BE2189 /* SwiftArmyKnife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftArmyKnife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F850A2927BD4B3B00BE2189 /* SwiftArmyKnifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftArmyKnifeApp.swift; sourceTree = "<group>"; };
 		1F850A2B27BD4B3B00BE2189 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,6 +119,26 @@
 			path = Editor;
 			sourceTree = "<group>";
 		};
+		1F42BBA027D3BEE800060D85 /* TodoList */ = {
+			isa = PBXGroup;
+			children = (
+				1F42BB9C27D3BED200060D85 /* TodoList.swift */,
+				1F42BBA727D3C4B200060D85 /* TodoListModel.swift */,
+				1F42BBA127D3BF0100060D85 /* Storage */,
+			);
+			path = TodoList;
+			sourceTree = "<group>";
+		};
+		1F42BBA127D3BF0100060D85 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				1F42BB9E27D3BEE300060D85 /* TodoListStorage.swift */,
+				1F42BBA527D3C2DE00060D85 /* Todos+Convenience.swift */,
+				1F42BBA227D3BF9500060D85 /* Todos.xcdatamodeld */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
 		1F850A1D27BD4B3B00BE2189 = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +165,7 @@
 				1F850A2927BD4B3B00BE2189 /* SwiftArmyKnifeApp.swift */,
 				1F850A2B27BD4B3B00BE2189 /* ContentView.swift */,
 				1F850A2D27BD4B3B00BE2189 /* Assets.xcassets */,
+				1F42BBA027D3BEE800060D85 /* TodoList */,
 				1F850A3927BD53CB00BE2189 /* ImageFetcher */,
 				1F8CC2D827BE9C93009A2264 /* Pokedex */,
 				1F0EDACC27BFEF6E00D88C55 /* Journal */,
@@ -318,11 +349,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F8CC2DC27BE9D5C009A2264 /* Pokemon.swift in Sources */,
+				1F42BBA427D3BF9500060D85 /* Todos.xcdatamodeld in Sources */,
 				1F0EDAD227BFFA9B00D88C55 /* JournalEditor.swift in Sources */,
+				1F42BBA827D3C4B200060D85 /* TodoListModel.swift in Sources */,
+				1F42BBA627D3C2DE00060D85 /* Todos+Convenience.swift in Sources */,
+				1F42BB9D27D3BED200060D85 /* TodoList.swift in Sources */,
 				1F0EDAD527BFFAC800D88C55 /* JournalEditorModel.swift in Sources */,
 				1F850A3827BD53BD00BE2189 /* ImageFetcher.swift in Sources */,
 				1F850A2C27BD4B3B00BE2189 /* ContentView.swift in Sources */,
 				1F0EDAD027BFF03400D88C55 /* JournalModel.swift in Sources */,
+				1F42BB9F27D3BEE300060D85 /* TodoListStorage.swift in Sources */,
 				1F0EDACB27BFEF6500D88C55 /* Journal.swift in Sources */,
 				1F8CC2D727BE9C8B009A2264 /* Pokedex.swift in Sources */,
 				1F850A2A27BD4B3B00BE2189 /* SwiftArmyKnifeApp.swift in Sources */,
@@ -648,6 +684,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1F42BBA227D3BF9500060D85 /* Todos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1F42BBA327D3BF9500060D85 /* Todos.xcdatamodel */,
+			);
+			currentVersion = 1F42BBA327D3BF9500060D85 /* Todos.xcdatamodel */;
+			path = Todos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1F850A1E27BD4B3B00BE2189 /* Project object */;
 }

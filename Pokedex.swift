@@ -15,7 +15,7 @@ struct Pokedex: View {
                 TextField("Search for a Pokemon!", text: $viewModel.searchText)
                     .textFieldStyle(.roundedBorder)
                     .accessibilityIdentifier("Search textfield")
-                    .accessibilityLabel("Search BAr")
+                    .accessibilityLabel("Search Bar")
                 Button(action: {
                     Task {
                         await viewModel.fetchPokemon()

@@ -20,9 +20,10 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 LazyVGrid(columns: columns) {
-                    DemoAppIcon(name: "ImageFetcher", color: .blue, destination: ImageFetcher())
-                    DemoAppIcon(name: "Pokedex", color: .red, destination: Pokedex())
-                    DemoAppIcon(name: "Journal", color: .yellow, destination: Journal())
+                    DemoAppIcon(name: "ImageFetcher", color: .brown, destination: ImageFetcher())
+                    DemoAppIcon(name: "Pokedex", color: .blue, destination: Pokedex())
+                    DemoAppIcon(name: "Journal", color: .gray, destination: Journal())
+                    DemoAppIcon(name: "Todo List", color: .yellow, destination: TodoList())
                 }
                 Spacer()
             }
