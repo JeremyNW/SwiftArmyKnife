@@ -12,6 +12,9 @@
 		1F0EDAD027BFF03400D88C55 /* JournalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0EDACF27BFF03400D88C55 /* JournalModel.swift */; };
 		1F0EDAD227BFFA9B00D88C55 /* JournalEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0EDAD127BFFA9B00D88C55 /* JournalEditor.swift */; };
 		1F0EDAD527BFFAC800D88C55 /* JournalEditorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0EDAD427BFFAC800D88C55 /* JournalEditorModel.swift */; };
+		1F382DEA27DFA33500BBE2A3 /* Sunset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F382DE927DFA33500BBE2A3 /* Sunset.swift */; };
+		1F382DEC27DFA37400BBE2A3 /* SunsetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F382DEB27DFA37400BBE2A3 /* SunsetModel.swift */; };
+		1F382DEE27DFA3A200BBE2A3 /* SunsetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F382DED27DFA3A200BBE2A3 /* SunsetViewModel.swift */; };
 		1F42BB9D27D3BED200060D85 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F42BB9C27D3BED200060D85 /* TodoList.swift */; };
 		1F42BB9F27D3BEE300060D85 /* TodoListStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F42BB9E27D3BEE300060D85 /* TodoListStorage.swift */; };
 		1F42BBA427D3BF9500060D85 /* Todos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F42BBA227D3BF9500060D85 /* Todos.xcdatamodeld */; };
@@ -19,13 +22,13 @@
 		1F42BBA827D3C4B200060D85 /* TodoListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F42BBA727D3C4B200060D85 /* TodoListModel.swift */; };
 		1F850A2A27BD4B3B00BE2189 /* SwiftArmyKnifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F850A2927BD4B3B00BE2189 /* SwiftArmyKnifeApp.swift */; };
 		1F850A2C27BD4B3B00BE2189 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F850A2B27BD4B3B00BE2189 /* ContentView.swift */; };
-		1F850A2E27BD4B3B00BE2189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F850A2D27BD4B3B00BE2189 /* Assets.xcassets */; };
 		1F850A3127BD4B3B00BE2189 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F850A3027BD4B3B00BE2189 /* Preview Assets.xcassets */; };
 		1F850A3827BD53BD00BE2189 /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F850A3727BD53BD00BE2189 /* ImageFetcher.swift */; };
 		1F850A3B27BD54F800BE2189 /* ImageFetcherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F850A3A27BD54F800BE2189 /* ImageFetcherModel.swift */; };
 		1F8CC2D727BE9C8B009A2264 /* Pokedex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8CC2D627BE9C8B009A2264 /* Pokedex.swift */; };
 		1F8CC2DA27BE9CB0009A2264 /* PokedexModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8CC2D927BE9CB0009A2264 /* PokedexModel.swift */; };
 		1F8CC2DC27BE9D5C009A2264 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8CC2DB27BE9D5C009A2264 /* Pokemon.swift */; };
+		1F9D40A627E00E3A0014F6BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9D40A527E00E3A0014F6BF /* Assets.xcassets */; };
 		1FE2B8D327CA7B2F008AF445 /* SwiftArmyKnifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2B8D227CA7B2F008AF445 /* SwiftArmyKnifeTests.swift */; };
 		1FE2B8E027CA82DD008AF445 /* SwiftArmyKnifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2B8DF27CA82DD008AF445 /* SwiftArmyKnifeUITests.swift */; };
 /* End PBXBuildFile section */
@@ -53,6 +56,9 @@
 		1F0EDACF27BFF03400D88C55 /* JournalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalModel.swift; sourceTree = "<group>"; };
 		1F0EDAD127BFFA9B00D88C55 /* JournalEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEditor.swift; sourceTree = "<group>"; };
 		1F0EDAD427BFFAC800D88C55 /* JournalEditorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEditorModel.swift; sourceTree = "<group>"; };
+		1F382DE927DFA33500BBE2A3 /* Sunset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sunset.swift; sourceTree = "<group>"; };
+		1F382DEB27DFA37400BBE2A3 /* SunsetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunsetModel.swift; sourceTree = "<group>"; };
+		1F382DED27DFA3A200BBE2A3 /* SunsetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunsetViewModel.swift; sourceTree = "<group>"; };
 		1F42BB9C27D3BED200060D85 /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
 		1F42BB9E27D3BEE300060D85 /* TodoListStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListStorage.swift; sourceTree = "<group>"; };
 		1F42BBA327D3BF9500060D85 /* Todos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Todos.xcdatamodel; sourceTree = "<group>"; };
@@ -61,13 +67,13 @@
 		1F850A2627BD4B3B00BE2189 /* SwiftArmyKnife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftArmyKnife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F850A2927BD4B3B00BE2189 /* SwiftArmyKnifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftArmyKnifeApp.swift; sourceTree = "<group>"; };
 		1F850A2B27BD4B3B00BE2189 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1F850A2D27BD4B3B00BE2189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F850A3027BD4B3B00BE2189 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1F850A3727BD53BD00BE2189 /* ImageFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFetcher.swift; sourceTree = "<group>"; };
 		1F850A3A27BD54F800BE2189 /* ImageFetcherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFetcherModel.swift; sourceTree = "<group>"; };
 		1F8CC2D627BE9C8B009A2264 /* Pokedex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokedex.swift; sourceTree = "<group>"; };
 		1F8CC2D927BE9CB0009A2264 /* PokedexModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexModel.swift; sourceTree = "<group>"; };
 		1F8CC2DB27BE9D5C009A2264 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		1F9D40A527E00E3A0014F6BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FE2B8D027CA7B2F008AF445 /* SwiftArmyKnifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftArmyKnifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FE2B8D227CA7B2F008AF445 /* SwiftArmyKnifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftArmyKnifeTests.swift; sourceTree = "<group>"; };
 		1FE2B8DD27CA82DD008AF445 /* SwiftArmyKnifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftArmyKnifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +125,16 @@
 			path = Editor;
 			sourceTree = "<group>";
 		};
+		1F31DE5027DF9DD200276771 /* Sunset */ = {
+			isa = PBXGroup;
+			children = (
+				1F382DE927DFA33500BBE2A3 /* Sunset.swift */,
+				1F382DEB27DFA37400BBE2A3 /* SunsetModel.swift */,
+				1F382DED27DFA3A200BBE2A3 /* SunsetViewModel.swift */,
+			);
+			path = Sunset;
+			sourceTree = "<group>";
+		};
 		1F42BBA027D3BEE800060D85 /* TodoList */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,7 +180,8 @@
 			children = (
 				1F850A2927BD4B3B00BE2189 /* SwiftArmyKnifeApp.swift */,
 				1F850A2B27BD4B3B00BE2189 /* ContentView.swift */,
-				1F850A2D27BD4B3B00BE2189 /* Assets.xcassets */,
+				1F9D40A527E00E3A0014F6BF /* Assets.xcassets */,
+				1F31DE5027DF9DD200276771 /* Sunset */,
 				1F42BBA027D3BEE800060D85 /* TodoList */,
 				1F850A3927BD53CB00BE2189 /* ImageFetcher */,
 				1F8CC2D827BE9C93009A2264 /* Pokedex */,
@@ -322,8 +339,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F9D40A627E00E3A0014F6BF /* Assets.xcassets in Resources */,
 				1F850A3127BD4B3B00BE2189 /* Preview Assets.xcassets in Resources */,
-				1F850A2E27BD4B3B00BE2189 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,13 +367,16 @@
 			files = (
 				1F8CC2DC27BE9D5C009A2264 /* Pokemon.swift in Sources */,
 				1F42BBA427D3BF9500060D85 /* Todos.xcdatamodeld in Sources */,
+				1F382DEE27DFA3A200BBE2A3 /* SunsetViewModel.swift in Sources */,
 				1F0EDAD227BFFA9B00D88C55 /* JournalEditor.swift in Sources */,
+				1F382DEC27DFA37400BBE2A3 /* SunsetModel.swift in Sources */,
 				1F42BBA827D3C4B200060D85 /* TodoListModel.swift in Sources */,
 				1F42BBA627D3C2DE00060D85 /* Todos+Convenience.swift in Sources */,
 				1F42BB9D27D3BED200060D85 /* TodoList.swift in Sources */,
 				1F0EDAD527BFFAC800D88C55 /* JournalEditorModel.swift in Sources */,
 				1F850A3827BD53BD00BE2189 /* ImageFetcher.swift in Sources */,
 				1F850A2C27BD4B3B00BE2189 /* ContentView.swift in Sources */,
+				1F382DEA27DFA33500BBE2A3 /* Sunset.swift in Sources */,
 				1F0EDAD027BFF03400D88C55 /* JournalModel.swift in Sources */,
 				1F42BB9F27D3BEE300060D85 /* TodoListStorage.swift in Sources */,
 				1F0EDACB27BFEF6500D88C55 /* Journal.swift in Sources */,

@@ -24,6 +24,7 @@ struct ContentView: View {
                     DemoAppIcon(name: "Pokedex", color: .blue, destination: Pokedex())
                     DemoAppIcon(name: "Journal", color: .gray, destination: Journal())
                     DemoAppIcon(name: "Todo List", color: .yellow, destination: TodoList())
+                    DemoAppIcon(name: "Sunset", color: .orange, destination: SunsetView())
                 }
                 Spacer()
             }
